@@ -2,7 +2,7 @@ package com.tv;
 
 import java.time.LocalDate;
 
-class AdmitPatient {
+class Patient {
 
 	// Variable declaration
 	String Pname;
@@ -10,7 +10,7 @@ class AdmitPatient {
 	LocalDate Pvisit;
 
 	// Constructor
-	public AdmitPatient(String pname, String plocation, LocalDate currentDate) {
+	public Patient(String pname, String plocation, LocalDate currentDate) {
 		Pname = pname;
 		Plocation = plocation;
 		Pvisit = currentDate;
